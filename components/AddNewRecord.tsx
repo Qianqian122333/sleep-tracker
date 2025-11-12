@@ -49,7 +49,7 @@ const AddRecord = () => {
           className="space-y-6"
         >
           {/* Sleep Quality and Sleep Date */}
-          <div className="flex flex-col md:flex-row md:space-x-4">
+          <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
             {/* Sleep Quality */}
             <div className="flex-1">
               <label
