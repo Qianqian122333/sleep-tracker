@@ -16,8 +16,8 @@ const RecordItem = ({ record }: { record: Record }) => {
     <li
       className={`flex justify-between items-center bg-white p-4 rounded-lg shadow-md mb-4 border-t border-t-gray-100 ${
         record?.amount < 7
-          ? "border-l-4 border-red-500"
-          : "border-l-4 border-green-500"
+          ? "border-l-4 border-blue-50"
+          : "border-l-4 border-blue-200"
       }`}
     >
       <div className="flex flex-col">
@@ -33,7 +33,7 @@ const RecordItem = ({ record }: { record: Record }) => {
       </div>
       <button
         onClick={() => handleDeleteRecord(record.id)}
-        className={`bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-600 transition cursor-pointer ${
+        className={`bg-blue-300 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-600 transition cursor-pointer ${
           isLoading ? "opacity-50 cursor-not-allowed" : ""
         }`}
         aria-label="Delete record"

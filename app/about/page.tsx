@@ -5,10 +5,10 @@ const AboutPage = () => {
     <div className="font-sans bg-gray-100 text-gray-800">
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center text-center py-16 px-8 bg-gray-100">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
-          About SleepTracker
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
+          About LunaRest
         </h1>
-        <p className="text-lg md:text-xl bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+        <p className="text-lg md:text-xl bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
           Your ultimate companion for tracking sleep and improving your health.
         </p>
       </section>
@@ -17,7 +17,7 @@ const AboutPage = () => {
       <section className="py-16 px-8 bg-white">
         <h2 className="text-3xl font-bold text-center mb-8">Our Mission</h2>
         <p className="text-gray-600 max-w-3xl mx-auto text-center">
-          At SleepTracker, we aim to help individuals achieve better sleep and
+          At LunaRest, we aim to help individuals achieve better sleep and
           overall well-being by providing insights into their sleep patterns.
           Better sleep leads to a healthier, happier life, and we’re here to
           guide you every step of the way.
@@ -27,7 +27,7 @@ const AboutPage = () => {
       {/* Features Section */}
       <section className="py-16 px-8 bg-gray-100">
         <h2 className="text-3xl font-bold text-center mb-8">
-          Why Choose SleepTracker?
+          Why Choose LunaRest?
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-md shadow">
@@ -55,7 +55,7 @@ const AboutPage = () => {
       <section className="py-16 px-8 bg-white">
         <h2 className="text-3xl font-bold text-center mb-8">Our Story</h2>
         <p className="text-gray-600 max-w-3xl mx-auto text-center">
-          SleepTracker was created to address the growing need for better sleep
+          LunaRest was created to address the growing need for better sleep
           management tools. Our team of sleep experts and technologists
           developed a platform that combines cutting-edge technology with
           actionable insights. Since our launch, we’ve helped countless users
@@ -65,16 +65,16 @@ const AboutPage = () => {
 
       {/* Call to Action Section */}
       <section className="py-16 px-8 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
           Ready to Sleep Better?
         </h2>
-        <p className="text-lg mb-6 bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
-          Join SleepTracker today and take the first step towards better sleep
-          and a healthier life.
+        <p className="text-lg mb-6 bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
+          Join LunaRest today and take the first step towards better sleep and a
+          healthier life.
         </p>
         <Link
           href="/sign-up"
-          className="inline-block bg-white text-purple-600 hover:text-purple-700 px-6 py-3 rounded-md font-medium shadow-md transition"
+          className="inline-block bg-white text-blue-300 hover:text-blue-400 px-6 py-3 rounded-md font-medium shadow-md transition"
         >
           Get Started
         </Link>

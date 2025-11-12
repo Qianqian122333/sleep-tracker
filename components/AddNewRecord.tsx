@@ -36,7 +36,7 @@ const AddRecord = () => {
   return (
     <div className="bg-gray-100 flex items-center justify-center">
       <div className="bg-white shadow-lg rounded-lg p-8 w-full">
-        <h3 className="text-2xl font-bold text-center mb-6 bg-linear-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
+        <h3 className="text-2xl font-bold text-center mb-6 bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
           Track Your Sleep
         </h3>
         <form
@@ -126,7 +126,7 @@ const AddRecord = () => {
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-linear-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white px-4 py-2 rounded-md font-medium shadow-md transition flex items-center justify-center cursor-pointer"
+            className="w-full bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 hover:from-slate-400 hover:via-blue-300 hover:to-slate-400 text-white px-4 py-2 rounded-md font-medium shadow-md transition flex items-center justify-center cursor-pointer"
             disabled={isLoading} // Disable button while loading
           >
             {isLoading ? (

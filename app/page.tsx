@@ -26,7 +26,7 @@ const Homepage = async () => {
 
             {/* User Details */}
             <div className="flex-1">
-              <h2 className="text-2xl md:text-3xl font-bold text-purple-600 mb-2">
+              <h2 className="text-2xl md:text-3xl font-bold text-blue-400 mb-2">
                 Welcome Back, {user.firstName} 👋
               </h2>
               <p className="text-gray-600 mb-4">

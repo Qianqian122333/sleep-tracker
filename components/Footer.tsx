@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo and Tagline */}
           <div className="text-center md:text-left mb-4 md:mb-0">
-            <h2 className="text-lg font-bold bg-linear-to-r from-purple-600 via-pink-500 to-red-500 bg-clip-text text-transparent">
-              SleepTracker
+            <h2 className="text-lg font-bold bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
+              LunaRest
             </h2>
             <p className="text-gray-600 text-sm">
               Track your sleep, improve your health.
@@ -19,13 +19,13 @@ const Footer = () => {
           <div className="flex space-x-4">
             <Link
               href="/"
-              className="text-gray-700 hover:text-purple-600 text-sm font-medium"
+              className="text-gray-700 hover:text-blue-400 text-sm font-medium"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="text-gray-700 hover:text-purple-600 text-sm font-medium"
+              className="text-gray-700 hover:text-blue-400 text-sm font-medium"
             >
               About
             </Link>
@@ -34,7 +34,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} SleepTracker. All rights reserved.
+          © {new Date().getFullYear()} LunaRest. All rights reserved.
         </div>
       </div>
     </footer>

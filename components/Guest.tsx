@@ -6,15 +6,15 @@ const Guest = () => {
       {/* Hero Section */}
       <div className="flex flex-col md:flex-row items-center justify-between p-3 md:p-16 bg-gray-100 pt-20">
         <div className="flex-1 mb-8 xl:pl-10">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4 bg-linear-to-r from-purple-500 via-pink-500 to-red-500 bg-clip-text text-transparent">
-            Welcome to SleepTracker
+          <h1 className="text-2xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 bg-clip-text text-transparent">
+            Welcome to LunaRest
           </h1>
           <p className="md:text-xl mb-6">
             Track your sleep, improve your health, and wake up feeling refreshed
-            with SleepTracker.
+            with LunaRest.
           </p>
           <SignInButton>
-            <button className="w-full md:w-auto bg-linear-to-r from-purple-500 via-pink-500 to-red-500 hover:from-purple-600 hover:via-pink-600 hover:to-red-600 text-white px-4 py-2 rounded-md font-medium cursor-pointer">
+            <button className="w-full md:w-auto bg-gradient-to-r from-slate-400 via-blue-300 to-slate-400 hover:from-slate-400 hover:via-blue-300 hover:to-slate-400 text-white px-4 py-2 rounded-md font-medium cursor-pointer">
               Get Started
             </button>
           </SignInButton>
@@ -22,7 +22,7 @@ const Guest = () => {
         <div className="flex-1 flex justify-center items-center">
           <img
             src="sleep-tracker.png"
-            alt="SleepTracker Illustration"
+            alt="LunaRest Illustration"
             className="w-full md:max-w-md rounded-tl-3xl rounded-br-3xl shadow-lg"
           />
         </div>
@@ -38,23 +38,23 @@ const Guest = () => {
         </h2>
         <div className="max-w-3xl mx-auto space-y-8">
           <div>
-            <h3 className="text-xl font-bold">What is SleepTracker?</h3>
+            <h3 className="text-xl font-bold">What is LunaRest?</h3>
             <p className="text-gray-600">
-              SleepTracker is a powerful tool designed to help you monitor your
+              LunaRest is a powerful tool designed to help you monitor your
               sleep patterns and improve your overall health.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-bold">How does it work?</h3>
             <p className="text-gray-600">
-              SleepTracker analyzes your sleep data and provides personalized
+              LunaRest analyzes your sleep data and provides personalized
               insights to help you achieve better sleep.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-bold">Is SleepTracker free?</h3>
+            <h3 className="text-xl font-bold">Is LunaRest free?</h3>
             <p className="text-gray-600">
-              Yes, SleepTracker offers a free plan with basic features. Premium
+              Yes, LunaRest offers a free plan with basic features. Premium
               plans are available for advanced insights and analytics.
             </p>
           </div>
@@ -72,21 +72,21 @@ const Guest = () => {
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
-              &quot;SleepTracker has completely transformed my sleep schedule. I
+              &quot;LunaRest has completely transformed my sleep schedule. I
               feel more energized every day!&quot;
             </p>
             <p className="text-purple-500 font-bold">- Sarah L.</p>
           </div>
           <div className="bg-white p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
-              &quot;The insights from SleepTracker have helped me identify and
-              fix my sleep issues. Highly recommend it!&quot;
+              &quot;The insights from LunaRest have helped me identify and fix
+              my sleep issues. Highly recommend it!&quot;
             </p>
             <p className="text-purple-500 font-bold">- John D.</p>
           </div>
           <div className="bg-white p-6 rounded-md shadow">
             <p className="text-gray-700 mb-4">
-              &quot;SleepTracker is so easy to use and provides accurate data.
+              &quot;LunaRest is so easy to use and provides accurate data.
               It&#39;s a must-have for anyone looking to improve their
               sleep!&quot;
             </p>

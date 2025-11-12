@@ -35,13 +35,12 @@ const BarChart = ({ records }: { records: Record[] }) => {
       {
         data: records.map((record) => record.amount), // Use record amounts as data
         backgroundColor: records.map((record) =>
-          record.amount < 7
-            ? "rgba(255, 99, 132, 0.2)"
-            : "rgba(75, 192, 192, 0.2)"
-        ), // Red for < 7, Green for >= 7
+          // Very light blue (blue-100) for < 7, blue-400 for >= 7
+          record.amount < 7 ? "rgba(219,234,254,0.6)" : "rgba(96,165,250,0.6)"
+        ),
         borderColor: records.map((record) =>
-          record.amount < 7 ? "rgba(255, 99, 132, 1)" : "rgba(75, 192, 192, 1)"
-        ), // Red for < 7, Green for >= 7
+          record.amount < 7 ? "rgba(219,234,254,1)" : "rgba(96,165,250,1)"
+        ),
         borderWidth: 1,
         borderRadius: 2, // Rounded bar edges
       },
