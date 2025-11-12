@@ -16,7 +16,7 @@ import Footer from "@/components/Footer";
 // });
 
 export const metadata: Metadata = {
-  title: "Sleep Tracker",
+  title: "LunaRest",
   description: "Track your sleep patterns and improve your sleep quality",
 };
 

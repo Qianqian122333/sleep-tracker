@@ -31,31 +31,32 @@ const Guest = () => {
       {/* Divider */}
       <div className="h-1 bg-gray-300"></div>
 
-      {/* Frequently Asked Questions Section */}
+      {/* Importance of Tracking Sleep Section */}
       <div className="py-16 px-8 bg-white">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-          Frequently Asked Questions
+          The Importance of Tracking Sleep
         </h2>
         <div className="max-w-3xl mx-auto space-y-8">
           <div>
-            <h3 className="text-xl font-bold">What is LunaRest?</h3>
+            <h3 className="text-xl font-bold">Understand Your Patterns</h3>
             <p className="text-gray-600">
-              LunaRest is a powerful tool designed to help you monitor your
-              sleep patterns and improve your overall health.
+              Regular tracking reveals your sleep and wake patterns over time,
+              helping you identify habits or routines that affect rest.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-bold">How does it work?</h3>
+            <h3 className="text-xl font-bold">Improve Sleep Quality</h3>
             <p className="text-gray-600">
-              LunaRest analyzes your sleep data and provides personalized
-              insights to help you achieve better sleep.
+              By recording sleep data you can test changes—bedtime, caffeine,
+              environment—and measure which adjustments lead to better sleep.
             </p>
           </div>
           <div>
-            <h3 className="text-xl font-bold">Is LunaRest free?</h3>
+            <h3 className="text-xl font-bold">Support Health Decisions</h3>
             <p className="text-gray-600">
-              Yes, LunaRest offers a free plan with basic features. Premium
-              plans are available for advanced insights and analytics.
+              Accurate sleep records provide valuable evidence for clinicians or
+              for making informed lifestyle decisions that improve long-term
+              wellbeing.
             </p>
           </div>
         </div>
@@ -64,33 +65,34 @@ const Guest = () => {
       {/* Divider */}
       <div className="h-1 bg-gray-300"></div>
 
-      {/* Testimonials Section */}
+      {/* Why Use LunaRest Section */}
       <div className="py-16 px-8 bg-gray-100">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-          What Our Users Say
+          Why Use LunaRest
         </h2>
         <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-md shadow">
-            <p className="text-gray-700 mb-4">
-              &quot;LunaRest has completely transformed my sleep schedule. I
-              feel more energized every day!&quot;
+            <h3 className="text-lg font-bold mb-2">Personalized Insights</h3>
+            <p className="text-gray-700">
+              LunaRest turns raw sleep data into clear, actionable suggestions
+              tailored to your habits so you can improve rest effectively.
             </p>
-            <p className="text-purple-500 font-bold">- Sarah L.</p>
           </div>
           <div className="bg-white p-6 rounded-md shadow">
-            <p className="text-gray-700 mb-4">
-              &quot;The insights from LunaRest have helped me identify and fix
-              my sleep issues. Highly recommend it!&quot;
+            <h3 className="text-lg font-bold mb-2">Easy Daily Tracking</h3>
+            <p className="text-gray-700">
+              Quick, intuitive tracking makes it simple to build a consistent
+              sleep log without extra effort—so improvements are easier to
+              achieve and sustain.
             </p>
-            <p className="text-purple-500 font-bold">- John D.</p>
           </div>
           <div className="bg-white p-6 rounded-md shadow">
-            <p className="text-gray-700 mb-4">
-              &quot;LunaRest is so easy to use and provides accurate data.
-              It&#39;s a must-have for anyone looking to improve their
-              sleep!&quot;
+            <h3 className="text-lg font-bold mb-2">Data You Can Trust</h3>
+            <p className="text-gray-700">
+              Reliable summaries and exportable reports help you and your
+              healthcare providers make informed decisions about sleep and
+              wellbeing.
             </p>
-            <p className="text-purple-500 font-bold">- Emily R.</p>
           </div>
         </div>
       </div>

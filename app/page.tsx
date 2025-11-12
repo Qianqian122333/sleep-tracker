@@ -30,10 +30,11 @@ const Homepage = async () => {
                 Welcome Back, {user.firstName} 👋
               </h2>
               <p className="text-gray-600 mb-4">
-                Here&#39;s a quick overview of your recent sleep activity. Stay
-                on top of your data insights and manage your tasks efficiently!
+                Rest well, dream sweetly 🌙 Here you can review your sleep
+                patterns, understand your nightly rhythms, and make each evening
+                more peaceful.
               </p>
-              <div className="space-y-2">
+              {/* <div className="space-y-2">
                 <p className="text-gray-600">
                   <span className="font-semibold text-gray-800">Joined:</span>{" "}
                   {new Date(user.createdAt).toLocaleDateString()}
@@ -46,7 +47,7 @@ const Homepage = async () => {
                     ? new Date(user.lastActiveAt).toLocaleString()
                     : "N/A"}
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Placeholder for AddSleepRecord */}
